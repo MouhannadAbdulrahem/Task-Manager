@@ -35,7 +35,7 @@
                 </tr>
             @empty
                 <tr>
-                    <td colspan="4" class="text-center fs-4 fw-bolder"> No Data </td>
+                    <td colspan="6" class="text-center fs-4 fw-bolder"> No Data </td>
                 </tr>
             @endforelse
         </tbody>

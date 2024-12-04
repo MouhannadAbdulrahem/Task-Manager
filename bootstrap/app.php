@@ -21,7 +21,7 @@ return Application::configure(basePath: dirname(__DIR__))
 
         $middleware->redirectUsersTo('/tasks');
 
-        $middleware->redirectGuestsTo('/login');
+        $middleware->redirectGuestsTo('/');
 
         $middleware->alias([
             'role' => \Spatie\Permission\Middleware\RoleMiddleware::class,
