@@ -24,11 +24,12 @@ php artisan serve
 ```
 
 and now you're ready to test
-##Admin Account
+
+## Admin Account
 email:admin@gmail.com
 password:password
 
-##User Account 
+## User Account 
 
 email:user@gmail.com
 password:password

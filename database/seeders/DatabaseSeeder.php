@@ -30,7 +30,7 @@ class DatabaseSeeder extends Seeder
         $userRole = Role::create(['name' => RoleEnum::USER->value]);
         $adminRole = Role::create(['name' => RoleEnum::ADMIN->value]);
 
-        $user->assignRole($userRole);
+        $user->assignRole($userRole);   
         $admin->assignRole($adminRole);
     }
 }
